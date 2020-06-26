@@ -1,4 +1,4 @@
 # RWSwiftUI
 Swift UI development
 
-In this workspace. I have added different projects.
+I have added demo projects with SWIFTUI.
