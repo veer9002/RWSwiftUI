@@ -13,6 +13,7 @@
 		BD5F453324A49F7F002B8A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5F453224A49F7F002B8A07 /* Assets.xcassets */; };
 		BD5F453624A49F7F002B8A07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5F453524A49F7F002B8A07 /* Preview Assets.xcassets */; };
 		BD5F453924A49F7F002B8A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5F453724A49F7F002B8A07 /* LaunchScreen.storyboard */; };
+		BD608A8424A77D4E0099B17C /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD608A8324A77D4E0099B17C /* Challenge1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD5F453524A49F7F002B8A07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD5F453824A49F7F002B8A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5F453A24A49F7F002B8A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD608A8324A77D4E0099B17C /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BD5F452C24A49F7C002B8A07 /* AppDelegate.swift */,
 				BD5F452E24A49F7C002B8A07 /* SceneDelegate.swift */,
 				BD5F453024A49F7C002B8A07 /* ContentView.swift */,
+				BD608A8324A77D4E0099B17C /* Challenge1.swift */,
 				BD5F453224A49F7F002B8A07 /* Assets.xcassets */,
 				BD5F453724A49F7F002B8A07 /* LaunchScreen.storyboard */,
 				BD5F453A24A49F7F002B8A07 /* Info.plist */,
@@ -149,6 +152,7 @@
 				BD5F452D24A49F7C002B8A07 /* AppDelegate.swift in Sources */,
 				BD5F452F24A49F7C002B8A07 /* SceneDelegate.swift in Sources */,
 				BD5F453124A49F7C002B8A07 /* ContentView.swift in Sources */,
+				BD608A8424A77D4E0099B17C /* Challenge1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
