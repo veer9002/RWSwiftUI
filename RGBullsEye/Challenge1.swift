@@ -14,6 +14,7 @@ struct Challenge1: View {
     @State var showAlert = false
     
     var body: some View {
+        NavigationView {
         VStack {
             Text("Put the Bull's Eye as close as you can to: \(targetValue) ")
             HStack {
@@ -26,7 +27,9 @@ struct Challenge1: View {
             }.alert(isPresented: $showAlert) {
                 Alert(title: Text("Your score"), message: Text(String(computeScore())))
             }.padding()
+         }
         }
+        .environment(\.colorScheme, .dark)
     }
     
     func computeScore() -> Int {
@@ -37,6 +40,8 @@ struct Challenge1: View {
 
 struct Challenge1_Previews: PreviewProvider {
     static var previews: some View {
-        Challenge1().previewLayout(.fixed(width: 568, height: 320))
+        Challenge1()
+            .previewLayout(.fixed(width: 568, height: 320))
+//            .environment(\.colorScheme, .dark)
     }
 }
